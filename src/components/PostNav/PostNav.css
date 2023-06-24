@@ -1,0 +1,13 @@
+.post-nav svg:hover {
+  background-color: rgb(221, 220, 220);
+}
+.post-nav svg {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 5px;
+}
+.post-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

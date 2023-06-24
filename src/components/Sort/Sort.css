@@ -1,0 +1,10 @@
+.sort {
+  margin-left: 2rem;
+}
+select {
+  padding: 5px;
+  width: 10rem;
+}
+option {
+  padding: 5px;
+}

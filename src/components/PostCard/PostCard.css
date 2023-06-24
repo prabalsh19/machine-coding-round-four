@@ -1,0 +1,41 @@
+.vote-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.post-card {
+  display: flex;
+  gap: 1rem;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.post-user-details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.post-user-details span {
+  color: blueviolet;
+}
+
+.post-details > h3 {
+  margin: 10px 0;
+}
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  cursor: pointer;
+}
+.post-actions svg {
+  cursor: pointer;
+}
+.vote-actions > button {
+  border: none;
+  background-color: white;
+}

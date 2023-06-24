@@ -1,0 +1,11 @@
+html,
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgb(247, 246, 247);
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin: 1rem 2rem;
+}
